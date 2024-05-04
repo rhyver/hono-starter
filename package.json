@@ -1,24 +1,25 @@
 {
-	"name": "hono-starter",
-	"version": "1.0.0",
-	"main": "src/index.ts",
-	"scripts": {
-		"format": "biome format --write ./",
-		"dev": "bun --hot src/index.ts",
-		"start": "bun src/index.ts"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"description": "",
-	"devDependencies": {
-		"@biomejs/biome": "^1.7.2",
-		"@types/bun": "^1.1.1",
-		"typescript": "^5.4.5"
-	},
-	"dependencies": {
-		"@hono/zod-validator": "^0.2.1",
-		"hono": "^4.3.0",
-		"zod": "^3.23.6"
-	}
+  "name": "hono-starter",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "format": "biome format --write ./",
+    "dev": "bun --hot src/index.ts",
+    "start": "bun src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@biomejs/biome": "^1.7.2",
+    "@flydotio/dockerfile": "^0.5.7",
+    "@types/bun": "^1.1.1",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.2.1",
+    "hono": "^4.3.0",
+    "zod": "^3.23.6"
+  }
 }
